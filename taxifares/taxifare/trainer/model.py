@@ -31,7 +31,7 @@ CSV_COLUMNS = ['fare_amount', 'dayofweek', 'hourofday', 'pickuplon', 'pickuplat'
 LABEL_COLUMN = 'fare_amount'
 
 # Set the default values for each CSV column in case there is a missing value
-DEFAULTS = [[0.0], [-74.0], [40.0], [-74.0], [40.7], [1.0], ['nokey']]
+DEFAULTS = [[0.0], ['Mon'], ['12'], [-74.0], [40.0], [-74.0], [40.7], [1.0], ['nokey']]
 
 # Create an input function that stores your data into a dataset
 def read_dataset(filename, mode, batch_size = 512):
