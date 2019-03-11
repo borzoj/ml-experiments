@@ -56,6 +56,12 @@ if __name__ == '__main__':
     )
     # Training arguments
     parser.add_argument(
+        '--nbuckets',
+        help = 'Number of buckets into which to discretize lats and lons',
+        default = 10,
+        type = int
+    )
+    parser.add_argument(
         '--hidden_units',
         help = 'List of hidden layer sizes to use for DNN feature columns',
         nargs = '+',
