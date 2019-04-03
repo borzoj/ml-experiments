@@ -5,7 +5,7 @@
 1. Install Python 2, pip
 2. Install required libraries
 ```
-sudo pip install gcloud tensorflow apache-beam[gcp] numpy pandas
+sudo pip install gcloud tensorflow apache-beam[gcp] numpy pandas matplotlib
 ```
 3. Install Jupyter Notebbok with tensorbvoard
 ```
